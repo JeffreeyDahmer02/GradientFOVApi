@@ -1,7 +1,7 @@
 -- shitty gradient field of view frame lmfao @greg
-Wowzers = {}
+GregAPI = {}
 
-function Wowzers.new(type, properties)
+function GregAPI.new(type, properties)
     if type == "Circle" then
         local ScreenGui = Instance.new("ScreenGui")
         local Frame = Instance.new("Frame")
@@ -76,6 +76,6 @@ function Wowzers.new(type, properties)
             end
         end)
     else
-        warn("Wowzers.new only supports 'Circle' at the moment.")
+        warn("GregAPI.new only supports 'Circle' at the moment.")
     end
 end
